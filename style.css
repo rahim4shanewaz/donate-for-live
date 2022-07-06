@@ -14,9 +14,15 @@ body{
     margin: 0;
     padding: 0;
 }
+.pragraph{
+   padding-left: 200px; 
+   padding-right: 200px;
+   text-align: center;
+    padding-bottom: 20px;
+    color: lightslategray;
+}
 p{
-    padding-left: 150px;
-    padding-right: 150px;
+    color: black;
 }
 .banner-content{
     margin: 100px;
@@ -63,7 +69,7 @@ text-align: center;
     text-align: center;
 }
 .box-shadow{
-    box-shadow:  2px 7px 10px gray;
+    box-shadow:  5px 7px 10px gray;
 }
 #selected-box{
     border: 1px solid red;
@@ -143,4 +149,59 @@ input[type=text] {
 .plan-box-content{
     padding-top: 5px;
     padding-left: 20px;
+    padding-right: 10px;
+}
+.mid-content{
+    display: flex;
+    margin-bottom: 10px;
+    padding-top: 100px;
+}
+.mid-cont-half{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.mid-cont-half img{
+    width: 100%;
+
+}
+.Button-contribute{
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    float: left;
+}
+.updates{
+    justify-content: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+    color: black;
+}
+.mail-form{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 200px;
+    margin-bottom: 50px;
+    
+}
+.Button-pos1{
+    padding-top: 80px;
+}
+
+#footer-bg{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+.footer-content{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+
 }
