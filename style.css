@@ -10,14 +10,18 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 200px;
+    height: 260px;
     margin: 0;
     padding: 0;
+}
+p{
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .banner-content{
     margin: 100px;
     padding: 100px;
-    height: 400px;
+    height: 300px;
     length: 400px
 }
 
@@ -26,7 +30,6 @@ body{
     color: white;
     font-weight: 400;
     padding: 10px 30px;
-    border-radius: 10px;
     background-color: palevioletred;
 }
 .Button-pos{
@@ -34,8 +37,110 @@ body{
     display: flex;
     padding-top: 10px;
 }
-h1{
+.h1-banner{
 font-size: 50px;
 color: white;
 text-align: center;
+}
+.body-content{
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+.amount-box{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.box-size{
+    width:80px;
+    margin-left: 5%;
+    height: 80px;
+    background-color: rgb(222, 252, 252);
+    text-align: center;
+}
+.box-shadow{
+    box-shadow:  2px 7px 10px gray;
+}
+#selected-box{
+    border: 1px solid red;
+    background-color: rgb(235, 198, 204);
+}
+.amount{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+} 
+.amount-button{
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+.other-amount{
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+    text-align: center;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 10px;
+   
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+  }
+.donate-plan{
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    
+
+}
+.plan-box1{
+    width:400px;
+    margin-left: 5%;
+    height: 250px;
+    background-color: #d5ecee;
+    float: left;  
+}
+.plan-box2{
+    width:400px;
+    margin-left: 5%;
+    height: 250px;
+    background-color: #f1dede;
+    float: left;  
+}
+.plan-box3{
+    width:400px;
+    margin-left: 5%;
+    height: 250px;
+    background-color: #f5e5ba;
+    float: left;  
+}
+
+.plan-box1 img{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.plan-box2 img{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.plan-box3 img{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.plan-box-content{
+    padding-top: 5px;
+    padding-left: 20px;
 }
