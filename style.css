@@ -62,14 +62,14 @@ text-align: center;
     justify-content: center;
 }
 .box-size{
-    width:80px;
-    margin-left: 5%;
-    height: 80px;
+    width:70px;
+    height: 70px;
     background-color: #FAFAFA;
     text-align: center;
+    margin-left: 5%;
 }
 .box-shadow{
-    box-shadow:  3px 5px 10px gray;
+    box-shadow:  2px 4px 8px gray;
 }
 #selected-box{
     border: 1px solid red;
@@ -99,8 +99,7 @@ text-align: center;
 }
 input[type=text] {
     width: 100%;
-    padding: 12px 10px;
-   
+    padding: 12px 12px;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid gray;
