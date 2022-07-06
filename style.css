@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.banner-bg{
+    background: url(images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.banner-content{
+    margin: 100px;
+    padding: 100px;
+    height: 400px;
+    length: 400px
+}
+
+.donate-button{  
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: palevioletred;
+}
+.Button-pos{
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+}
+h1{
+font-size: 50px;
+color: white;
+text-align: center;
+}
