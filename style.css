@@ -65,11 +65,11 @@ text-align: center;
     width:80px;
     margin-left: 5%;
     height: 80px;
-    background-color: rgb(222, 252, 252);
+    background-color: #FAFAFA;
     text-align: center;
 }
 .box-shadow{
-    box-shadow:  5px 7px 10px gray;
+    box-shadow:  3px 5px 10px gray;
 }
 #selected-box{
     border: 1px solid red;
@@ -172,12 +172,71 @@ input[type=text] {
     padding-top: 10px;
     float: left;
 }
+
+
+.summery-img{
+      background-image: url(images/donation-x.png);
+      height: 550px;
+      margin-top:  100px;
+     margin-bottom: 80px;
+     display: flex;
+}
+.summery-content1{
+    width: 50%;
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.summery-content1 h1{
+    text-align: left;
+    font-size: 30px;
+    color: gray;
+}
+.summery-content2{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+    
+}
+.summery-content2 h1{
+    text-align: left;
+    font-size: 30px;
+    color: gray;
+    
+}
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 30%;
+    float: left;
+  } 
+.history-div{
+    padding-bottom: 40px;
+}
+.history-div h1{
+    color: black;
+    font-size: 20px;
+}
+.note{
+    padding-top: 100px;
+}
+
 .updates{
     justify-content: center;
     padding-right: 200px;
     padding-left: 200px;
     padding-bottom: 50px;
     color: black;
+    margin-top: 80px;
 }
 .mail-form{
     width: 100%;
